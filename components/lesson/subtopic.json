@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_lesson_subtopics",
+  "info": {
+    "name": "subtopic",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    }
+  }
+}
