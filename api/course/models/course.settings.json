@@ -23,7 +23,7 @@
       "repeatable": true,
       "component": "lesson.curriculum"
     },
-    "media": {
+    "course_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
