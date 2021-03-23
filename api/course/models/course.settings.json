@@ -38,8 +38,8 @@
       "type": "string"
     },
     "author": {
-      "model": "author",
-      "via": "course"
+      "via": "course",
+      "model": "author"
     }
   }
 }
