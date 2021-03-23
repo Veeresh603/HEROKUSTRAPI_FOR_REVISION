@@ -37,10 +37,6 @@
     "slug": {
       "type": "string"
     },
-    "author": {
-      "model": "author",
-      "via": "course"
-    },
     "banner_img": {
       "model": "file",
       "via": "related",
@@ -54,6 +50,10 @@
     },
     "short_descrption": {
       "type": "richtext"
+    },
+    "author": {
+      "via": "courses",
+      "model": "author"
     }
   }
 }

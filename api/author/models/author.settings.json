@@ -28,9 +28,9 @@
       "plugin": "upload",
       "required": false
     },
-    "course": {
-      "via": "author",
-      "model": "course"
+    "courses": {
+      "collection": "course",
+      "via": "author"
     },
     "rating": {
       "type": "integer",
