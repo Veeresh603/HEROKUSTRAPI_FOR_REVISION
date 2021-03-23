@@ -38,8 +38,19 @@
       "type": "string"
     },
     "author": {
-      "via": "course",
-      "model": "author"
+      "model": "author",
+      "via": "course"
+    },
+    "banner_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

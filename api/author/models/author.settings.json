@@ -29,8 +29,8 @@
       "required": false
     },
     "course": {
-      "model": "course",
-      "via": "author"
+      "via": "author",
+      "model": "course"
     },
     "rating": {
       "type": "integer",
