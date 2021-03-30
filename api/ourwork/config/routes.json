@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ourworks",
+      "handler": "ourwork.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ourworks/count",
+      "handler": "ourwork.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ourworks/:id",
+      "handler": "ourwork.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ourworks",
+      "handler": "ourwork.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ourworks/:id",
+      "handler": "ourwork.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ourworks/:id",
+      "handler": "ourwork.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_toknow_ourpeople",
+  "info": {
+    "name": "getToknowOurpeople"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "gettoknow_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
