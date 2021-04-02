@@ -29,13 +29,8 @@
       "required": false
     },
     "courses": {
-      "collection": "course",
-      "via": "author"
-    },
-    "rating": {
-      "type": "integer",
-      "max": 5,
-      "min": 1
+      "via": "author",
+      "collection": "course"
     }
   }
 }

@@ -52,8 +52,11 @@
       "type": "richtext"
     },
     "author": {
-      "via": "courses",
-      "model": "author"
+      "model": "author",
+      "via": "courses"
+    },
+    "rating": {
+      "type": "decimal"
     }
   }
 }
