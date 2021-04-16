@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "ourworks",
+  "collectionName": "bootcamps",
   "info": {
-    "name": "Home_Ourwork",
-    "description": ""
+    "name": "Bootcamps"
   },
   "options": {
     "increments": true,
@@ -11,19 +10,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "ourwork_image": {
-      "collection": "file",
+    "bootcamp_media": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
-    "title": {
-      "type": "string"
+    "bootcamp_title": {
+      "type": "text"
     }
   }
 }

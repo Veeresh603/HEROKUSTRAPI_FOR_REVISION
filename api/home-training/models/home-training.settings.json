@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_trainings",
+  "info": {
+    "name": "Home_Training",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "string"
+    },
+    "longDescrption": {
+      "type": "richtext"
+    },
+    "technologyList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technology.technolgy-list"
+    },
+    "Training_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

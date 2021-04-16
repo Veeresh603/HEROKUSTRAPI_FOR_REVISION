@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_training_on_emerging_technologies",
+  "info": {
+    "name": "Training_trainingOnEmergingTechnologies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescrption": {
+      "type": "string"
+    },
+    "training_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

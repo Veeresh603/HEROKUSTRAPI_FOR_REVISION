@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "homebannervideos",
+  "collectionName": "home_whatweares",
   "info": {
-    "name": "home_Whoweare",
-    "description": ""
+    "name": "Home_Whatweare"
   },
   "options": {
     "increments": true,
@@ -14,11 +13,10 @@
     "title": {
       "type": "string"
     },
-    "shortDescrption": {
-      "type": "string"
-    },
-    "main_Descrption": {
-      "type": "richtext"
+    "whatweare": {
+      "type": "component",
+      "repeatable": true,
+      "component": "whatweare.whatweare"
     }
   }
 }
