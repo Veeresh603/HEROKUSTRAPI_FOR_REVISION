@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "workshop_machinelearnings",
+  "info": {
+    "name": "Webinar_machinelearning",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "emerging": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    },
+    "upcoming_webinar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "upcoming-webinar.upcoming-webinar"
+    },
+    "workshop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
+    }
+  }
+}

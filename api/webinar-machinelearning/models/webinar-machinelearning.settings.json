@@ -1,0 +1,14 @@
+{
+  "collectionName": "webinar_machinelearnings",
+  "info": {
+    "name": "webinar-machinelearning",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}
