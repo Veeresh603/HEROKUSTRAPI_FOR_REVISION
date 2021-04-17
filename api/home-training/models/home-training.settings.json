@@ -14,16 +14,8 @@
     "title": {
       "type": "string"
     },
-    "shortDescrption": {
-      "type": "string"
-    },
     "longDescrption": {
       "type": "richtext"
-    },
-    "technologyList": {
-      "type": "component",
-      "repeatable": false,
-      "component": "technology.technolgy-list"
     },
     "Training_media": {
       "model": "file",
@@ -35,6 +27,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
     }
   }
 }

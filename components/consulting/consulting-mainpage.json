@@ -18,16 +18,11 @@
       "plugin": "upload",
       "required": false
     },
-    "descrption": {
-      "type": "text"
-    },
     "title": {
       "type": "string"
     },
-    "technology": {
-      "type": "component",
-      "repeatable": false,
-      "component": "technology.topics"
+    "descrption": {
+      "type": "richtext"
     }
   }
 }

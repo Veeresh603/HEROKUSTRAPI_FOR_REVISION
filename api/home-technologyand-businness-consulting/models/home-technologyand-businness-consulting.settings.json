@@ -14,16 +14,8 @@
     "title": {
       "type": "string"
     },
-    "shortDescrption": {
-      "type": "string"
-    },
     "LongDescrption": {
       "type": "richtext"
-    },
-    "TechnolgyList": {
-      "type": "component",
-      "repeatable": false,
-      "component": "technology.technolgy-list"
     },
     "Consulting_image": {
       "collection": "file",
@@ -35,6 +27,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
     }
   }
 }

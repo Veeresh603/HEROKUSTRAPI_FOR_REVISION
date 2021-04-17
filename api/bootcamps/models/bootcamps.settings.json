@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bootcamps",
   "info": {
-    "name": "Bootcamps"
+    "name": "Bootcamps",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,19 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "bootcamp_media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "bootcamp_title": {
-      "type": "text"
+    "bootcamp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
     }
   }
 }

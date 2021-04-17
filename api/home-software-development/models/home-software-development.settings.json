@@ -14,16 +14,8 @@
     "title": {
       "type": "string"
     },
-    "shortDescrption": {
-      "type": "string"
-    },
     "LongDescrption": {
       "type": "richtext"
-    },
-    "softwareList": {
-      "type": "component",
-      "repeatable": true,
-      "component": "technology.technolgy-list"
     },
     "SoftwareDevelopment_image": {
       "model": "file",
@@ -35,6 +27,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
     }
   }
 }
