@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "ourreviews",
+  "collectionName": "home_ourworks",
   "info": {
-    "name": "Ourreviews"
+    "name": "Home_ourwork"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "ourreview": {
+    "ourwork": {
       "type": "component",
       "repeatable": true,
       "component": "consulting.consulting-mainpage"

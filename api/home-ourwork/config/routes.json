@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/ourworks",
-      "handler": "ourwork.find",
+      "path": "/home-ourworks",
+      "handler": "home-ourwork.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/ourworks/count",
-      "handler": "ourwork.count",
+      "path": "/home-ourworks/count",
+      "handler": "home-ourwork.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/ourworks/:id",
-      "handler": "ourwork.findOne",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/ourworks",
-      "handler": "ourwork.create",
+      "path": "/home-ourworks",
+      "handler": "home-ourwork.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/ourworks/:id",
-      "handler": "ourwork.update",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/ourworks/:id",
-      "handler": "ourwork.delete",
+      "path": "/home-ourworks/:id",
+      "handler": "home-ourwork.delete",
       "config": {
         "policies": []
       }
