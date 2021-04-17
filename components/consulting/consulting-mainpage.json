@@ -2,7 +2,8 @@
   "collectionName": "components_consulting_consulting_mainpages",
   "info": {
     "name": "consulting_mainpage",
-    "icon": "air-freshener"
+    "icon": "air-freshener",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,9 @@
     },
     "descrption": {
       "type": "text"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
