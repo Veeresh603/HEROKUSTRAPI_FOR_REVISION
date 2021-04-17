@@ -23,6 +23,11 @@
     },
     "title": {
       "type": "string"
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technology.topics"
     }
   }
 }
