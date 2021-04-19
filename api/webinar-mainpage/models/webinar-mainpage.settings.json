@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "workshop_machinelearnings",
+  "kind": "collectionType",
+  "collectionName": "webinar_mainpages",
   "info": {
-    "name": "Webinar_machinelearning",
+    "name": "Webinar_Mainpage",
     "description": ""
   },
   "options": {
@@ -21,14 +21,14 @@
       "repeatable": false,
       "component": "consulting.consulting-mainpage"
     },
-    "upcoming_webinar": {
+    "allwebinar_upcoming_past": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "upcoming-webinar.upcoming-webinar"
     },
     "workshop": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "consulting.consulting-mainpage"
     }
   }

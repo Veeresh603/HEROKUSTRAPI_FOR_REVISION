@@ -26,6 +26,12 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }
