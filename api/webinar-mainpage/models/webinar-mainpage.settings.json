@@ -23,7 +23,7 @@
     },
     "allwebinar_upcoming_past": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "upcoming-webinar.upcoming-webinar"
     },
     "workshop": {
