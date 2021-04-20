@@ -10,7 +10,7 @@
     "name": {
       "type": "string"
     },
-    "review_image": {
+    "review_video": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -23,6 +23,17 @@
     },
     "descrption": {
       "type": "richtext"
+    },
+    "review_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
