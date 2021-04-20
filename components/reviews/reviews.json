@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descrption": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ml_demo_classes",
+  "info": {
+    "name": "ml-demo-class",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "free_demo_class": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evolutionof-ai.what-is-covered-in-the-free-demo-class"
+    },
+    "instructor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consulting.consulting-mainpage"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews"
+    },
+    "register_now": {
+      "type": "string"
+    },
+    "free_demo_class_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "instructor_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "instructor.instructor-video"
+    }
+  }
+}
