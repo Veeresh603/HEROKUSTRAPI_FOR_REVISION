@@ -12,6 +12,22 @@
     },
     "descrption": {
       "type": "richtext"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lesson.subtopic"
     }
   }
 }
