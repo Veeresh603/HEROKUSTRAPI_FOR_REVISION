@@ -26,11 +26,6 @@
       "repeatable": false,
       "component": "consulting.consulting-mainpage"
     },
-    "reviews": {
-      "type": "component",
-      "repeatable": true,
-      "component": "reviews.reviews"
-    },
     "register_now": {
       "type": "string"
     },
@@ -49,6 +44,16 @@
       "type": "component",
       "repeatable": false,
       "component": "instructor.instructor-video"
+    },
+    "review_video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-video.reviews"
+    },
+    "review_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-image.review-image"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "collectionName": "components_reviews_reviews",
   "info": {
-    "name": "reviews",
+    "name": "review_video",
     "icon": "bacon",
     "description": ""
   },
@@ -11,20 +11,6 @@
       "type": "string"
     },
     "review_video": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "descrption": {
-      "type": "richtext"
-    },
-    "review_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
