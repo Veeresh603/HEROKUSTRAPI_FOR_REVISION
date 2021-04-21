@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_newsupdate_newsupdates",
+  "info": {
+    "name": "newsupdate",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "news_descrption": {
+      "type": "richtext"
+    },
+    "panel": {
+      "type": "string"
+    }
+  }
+}
