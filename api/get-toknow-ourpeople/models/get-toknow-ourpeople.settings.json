@@ -11,19 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "ourwork_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "GetToKnowOurPeople": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consulting.consulting-mainpage"
     }
   }
 }
