@@ -58,6 +58,11 @@
     "slug": {
       "type": "string",
       "required": true
+    },
+    "BonusTopics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bonus.bonus-topics"
     }
   }
 }

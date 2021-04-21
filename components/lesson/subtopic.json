@@ -6,9 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "topic": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }
