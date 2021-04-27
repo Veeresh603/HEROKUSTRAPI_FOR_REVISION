@@ -16,7 +16,8 @@
       "component": "lesson.subtopic"
     },
     "panel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

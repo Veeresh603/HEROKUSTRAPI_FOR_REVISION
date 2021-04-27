@@ -2,7 +2,8 @@
   "collectionName": "components_button_button_label_with_descrptions",
   "info": {
     "name": "Button_label_with_descrption",
-    "icon": "bold"
+    "icon": "bold",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,10 @@
     },
     "Button_descrption": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }

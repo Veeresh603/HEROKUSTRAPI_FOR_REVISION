@@ -9,7 +9,7 @@
   "attributes": {
     "subTopic": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

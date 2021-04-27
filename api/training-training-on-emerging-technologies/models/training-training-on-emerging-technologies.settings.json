@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "training_training_on_emerging_technologies",
   "info": {
-    "name": "Training_trainingOnEmergingTechnologies"
+    "name": "Training_trainingOnEmergingTechnologies",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,9 +12,6 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
-    },
-    "shortDescrption": {
       "type": "string"
     },
     "training_media": {
@@ -26,6 +24,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "shortDescrption": {
+      "type": "richtext"
     }
   }
 }

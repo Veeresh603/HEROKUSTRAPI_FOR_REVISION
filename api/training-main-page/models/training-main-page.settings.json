@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "software_main_pages",
+  "collectionName": "training_main_pages",
   "info": {
-    "name": "Software_mainPage",
-    "description": ""
+    "name": "training_mainPage"
   },
   "options": {
     "increments": true,
@@ -11,9 +10,9 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "software": {
+    "trainingOnEmergingTechnologies": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "consulting.consulting-mainpage"
     },
     "title": {

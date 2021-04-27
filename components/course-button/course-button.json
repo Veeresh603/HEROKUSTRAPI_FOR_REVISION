@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_course_button_course_buttons",
+  "info": {
+    "name": "Course_button",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "button_label": {
+      "type": "string"
+    },
+    "slug_link": {
+      "type": "string"
+    }
+  }
+}
