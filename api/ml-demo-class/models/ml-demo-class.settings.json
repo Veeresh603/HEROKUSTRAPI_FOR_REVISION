@@ -64,14 +64,9 @@
       "repeatable": true,
       "component": "bonus.bonus-topics"
     },
-    "Recorded_demo": {
+    "demo_class_buttons": {
       "type": "component",
-      "repeatable": false,
-      "component": "button.button-label-with-descrption"
-    },
-    "Course_curriculum": {
-      "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "button.button-label-with-descrption"
     }
   }
