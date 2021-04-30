@@ -2,20 +2,13 @@
   "collectionName": "components_instructor_instructor_videos",
   "info": {
     "name": "instructor_video",
-    "icon": "angle-double-left"
+    "icon": "angle-double-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "video_of_instructor": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "Instructor_video_url": {
+      "type": "string"
     }
   }
 }

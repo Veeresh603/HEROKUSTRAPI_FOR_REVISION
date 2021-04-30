@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "ml_demo_classes",
   "info": {
-    "name": "ml-demo-class",
+    "name": "demo-class",
     "description": ""
   },
   "options": {
