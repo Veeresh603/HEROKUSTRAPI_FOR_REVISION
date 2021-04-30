@@ -21,11 +21,6 @@
       "repeatable": true,
       "component": "consulting.consulting-mainpage"
     },
-    "technologyStack": {
-      "type": "component",
-      "repeatable": true,
-      "component": "technology-stack-media.technology-stack-media"
-    },
     "whoarewe": {
       "type": "component",
       "repeatable": false,
@@ -55,6 +50,16 @@
       "type": "component",
       "repeatable": false,
       "component": "ourwork.our-work"
+    },
+    "whatStudentsSay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "what-students-say.what-students-say"
+    },
+    "technologyStack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
     }
   }
 }
