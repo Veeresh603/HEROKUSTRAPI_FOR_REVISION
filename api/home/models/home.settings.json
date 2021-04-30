@@ -56,7 +56,7 @@
       "repeatable": false,
       "component": "what-students-say.what-students-say"
     },
-    "technologyStack": {
+    "technology_stack": {
       "type": "component",
       "repeatable": false,
       "component": "technolog-stack.technolog-stack"
