@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_what_students_says",
+  "info": {
+    "name": "home_whatStudentsSay"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "whatStudentsSay": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-image.review-image"
+    }
+  }
+}
