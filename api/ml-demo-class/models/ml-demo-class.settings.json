@@ -16,11 +16,6 @@
       "repeatable": false,
       "component": "banner.banner"
     },
-    "free_demo_class": {
-      "type": "component",
-      "repeatable": true,
-      "component": "evolutionof-ai.what-is-covered-in-the-free-demo-class"
-    },
     "instructor": {
       "type": "component",
       "repeatable": false,
@@ -59,15 +54,15 @@
       "type": "string",
       "required": true
     },
-    "BonusTopics": {
-      "type": "component",
-      "repeatable": true,
-      "component": "bonus.bonus-topics"
-    },
     "demo_class_buttons": {
       "type": "component",
       "repeatable": true,
       "component": "button.button-label-with-descrption"
+    },
+    "demo_class_day": {
+      "type": "component",
+      "repeatable": true,
+      "component": "democlass.demo-class-days"
     }
   }
 }
