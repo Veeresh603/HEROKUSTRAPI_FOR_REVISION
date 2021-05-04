@@ -23,6 +23,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "course_name": {
+      "type": "string"
     }
   }
 }
