@@ -9,6 +9,11 @@
   "attributes": {
     "Instructor_video_url": {
       "type": "string"
+    },
+    "instructor_video_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
     }
   }
 }

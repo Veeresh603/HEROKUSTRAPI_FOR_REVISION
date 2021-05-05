@@ -23,14 +23,6 @@
     },
     "descrption": {
       "type": "richtext"
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "course-button.course-button"
-    },
-    "left_image": {
-      "type": "boolean"
     }
   }
 }

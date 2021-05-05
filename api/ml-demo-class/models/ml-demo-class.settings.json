@@ -21,9 +21,6 @@
       "repeatable": false,
       "component": "consulting.consulting-mainpage"
     },
-    "register_now": {
-      "type": "string"
-    },
     "free_demo_class_image": {
       "model": "file",
       "via": "related",
@@ -42,7 +39,7 @@
     },
     "review_video": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "review-video.reviews"
     },
     "review_image": {
@@ -63,6 +60,11 @@
       "type": "component",
       "repeatable": true,
       "component": "democlass.demo-class-days"
+    },
+    "register_now_democlass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register-now.register-now-democlass"
     }
   }
 }

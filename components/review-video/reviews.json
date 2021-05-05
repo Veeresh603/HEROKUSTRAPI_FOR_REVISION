@@ -7,11 +7,15 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string"
+    "review_video_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
     },
-    "Youtube_url": {
-      "type": "string"
+    "video_reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "video-url-desc.video-descrption-and-url"
     }
   }
 }

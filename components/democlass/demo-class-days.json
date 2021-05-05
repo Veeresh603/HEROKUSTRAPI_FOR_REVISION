@@ -22,6 +22,11 @@
     },
     "panelNumber": {
       "type": "integer"
+    },
+    "main_heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
     }
   }
 }
