@@ -12,11 +12,6 @@
       "repeatable": true,
       "component": "evolutionof-ai.what-is-covered-in-the-free-demo-class"
     },
-    "bonus": {
-      "type": "component",
-      "repeatable": true,
-      "component": "bonus.bonus-topics"
-    },
     "day": {
       "type": "string"
     },

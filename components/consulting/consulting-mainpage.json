@@ -23,6 +23,12 @@
     },
     "descrption": {
       "type": "richtext"
+    },
+    "linkedIn_url": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
     }
   }
 }
