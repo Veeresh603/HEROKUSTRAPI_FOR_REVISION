@@ -42,11 +42,6 @@
       "repeatable": false,
       "component": "review-video.reviews"
     },
-    "review_image": {
-      "type": "component",
-      "repeatable": true,
-      "component": "review-image.review-image"
-    },
     "slug": {
       "type": "string",
       "required": true
@@ -65,6 +60,11 @@
       "type": "component",
       "repeatable": false,
       "component": "register-now.register-now-democlass"
+    },
+    "review_images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review.review-image-title"
     }
   }
 }
