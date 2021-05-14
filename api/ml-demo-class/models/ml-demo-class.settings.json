@@ -65,6 +65,11 @@
       "type": "component",
       "repeatable": false,
       "component": "review.review-image-title"
+    },
+    "Register_link_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
     }
   }
 }
