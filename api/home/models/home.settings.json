@@ -16,11 +16,6 @@
       "repeatable": false,
       "component": "whatwedo.whatwedo"
     },
-    "GridItems": {
-      "type": "component",
-      "repeatable": true,
-      "component": "consulting.consulting-mainpage"
-    },
     "whoarewe": {
       "type": "component",
       "repeatable": false,
@@ -60,6 +55,11 @@
       "type": "component",
       "repeatable": false,
       "component": "technolog-stack.technolog-stack"
+    },
+    "GridSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "grid.grid-section"
     }
   }
 }

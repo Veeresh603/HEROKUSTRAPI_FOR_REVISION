@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allreviews",
+  "info": {
+    "name": "Allreviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "allreview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "allreview.allreiview"
+    },
+    "demo_class": {
+      "model": "ml-demo-class"
+    }
+  }
+}
