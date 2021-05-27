@@ -75,6 +75,16 @@
       "type": "component",
       "repeatable": false,
       "component": "tabs.tab-section"
+    },
+    "instamojoTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
+    },
+    "paypalTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
     }
   }
 }
