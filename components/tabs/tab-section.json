@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tabs_tab_sections",
+  "info": {
+    "name": "tabSection",
+    "icon": "caret-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

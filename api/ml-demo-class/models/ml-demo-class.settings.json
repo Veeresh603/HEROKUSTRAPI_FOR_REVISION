@@ -70,6 +70,11 @@
       "type": "component",
       "repeatable": false,
       "component": "course-button.course-button"
+    },
+    "event_schedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tabs.tab-section"
     }
   }
 }
