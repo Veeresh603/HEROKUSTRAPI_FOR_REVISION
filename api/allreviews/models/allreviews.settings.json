@@ -13,11 +13,15 @@
   "attributes": {
     "allreview": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "allreview.allreiview"
     },
-    "demo_class": {
-      "model": "ml-demo-class"
+    "course": {
+      "type": "string"
+    },
+    "demo_classes": {
+      "via": "allreview",
+      "collection": "ml-demo-class"
     }
   }
 }

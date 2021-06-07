@@ -2,13 +2,11 @@
   "collectionName": "components_allreview_allreiviews",
   "info": {
     "name": "allreiview",
-    "icon": "arrow-right"
+    "icon": "arrow-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "course": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
@@ -31,6 +29,9 @@
     },
     "descrption": {
       "type": "richtext"
+    },
+    "rating": {
+      "type": "decimal"
     }
   }
 }

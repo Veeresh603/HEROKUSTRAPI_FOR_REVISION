@@ -85,6 +85,10 @@
       "type": "component",
       "repeatable": false,
       "component": "tabs.tab-section"
+    },
+    "allreview": {
+      "model": "allreviews",
+      "via": "demo_classes"
     }
   }
 }
