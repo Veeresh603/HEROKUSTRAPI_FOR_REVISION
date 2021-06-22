@@ -144,8 +144,8 @@ module.exports = {
               : process.env.PRODUCTION_URL,
         });
         ctx.send({
-          status: 'Authenticated',
-                    user: sanitizeEntity(user.toJSON ? user.toJSON() : user, {
+          jwt: token,
+          user: sanitizeEntity(user.toJSON ? user.toJSON() : user, {
             model: strapi.query("user", "users-permissions").model,
           }),
         });
