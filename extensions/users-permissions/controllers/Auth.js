@@ -136,12 +136,12 @@ module.exports = {
 
         ctx.cookies.set("token", token, {
           httpOnly: true,
-          secure: true,
+          secure: process.env.NODE_ENV === "production" ? true : false,
           maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
           domain:
             process.env.NODE_ENV === "development"
               ? "localhost"
-              : "https://anastrapiatlas.herokuapp.com",
+              : process.env.PRODUCTION_URL,
         });
         ctx.send({
           jwt: token,
