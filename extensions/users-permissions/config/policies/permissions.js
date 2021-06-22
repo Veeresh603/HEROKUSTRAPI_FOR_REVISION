@@ -9,7 +9,12 @@ module.exports = async (ctx, next) => {
     // request is already authenticated in a different way
     return next();
   }
-
+  if (ctx.request && ctx.request.header && !ctx.request.header.authorization) {
+    const token = ctx.cookies.get("token");
+    if (token) {
+      ctx.request.header.authorization = "Bearer " + token;
+    }
+  }
   if (ctx.request && ctx.request.header && ctx.request.header.authorization) {
     try {
       const { id } = await strapi.plugins['users-permissions'].services.jwt.getToken(ctx);
