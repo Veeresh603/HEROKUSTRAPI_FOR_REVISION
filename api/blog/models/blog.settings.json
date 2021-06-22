@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Descrption": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "youtube_link": {
+      "type": "string",
+      "default": "blogger youtube channel "
+    },
+    "linkedin_link": {
+      "type": "string",
+      "default": "blogger linkedin link"
+    },
+    "blogger_pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blog_cover_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blog_slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
