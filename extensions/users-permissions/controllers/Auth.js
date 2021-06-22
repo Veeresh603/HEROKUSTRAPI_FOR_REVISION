@@ -141,7 +141,7 @@ module.exports = {
           domain:
             process.env.NODE_ENV === "development"
               ? "localhost"
-              : process.env.PRODUCTION_URL,
+              : "https://anastrapiatlas.herokuapp.com",
         });
         ctx.send({
           jwt: token,
