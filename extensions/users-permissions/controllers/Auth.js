@@ -140,7 +140,7 @@ module.exports = {
           maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
           domain:
             process.env.NODE_ENV === "development"
-              ? "localhost"
+              ? "http://localhost:8000"
               : process.env.PRODUCTION_URL,
         });
         ctx.send({
