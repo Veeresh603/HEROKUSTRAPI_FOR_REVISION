@@ -55,6 +55,13 @@
     "blog_slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "blogs_categories": {
+      "via": "blogs",
+      "collection": "blogs-category"
+    },
+    "seo_keywords": {
+      "type": "string"
     }
   }
 }

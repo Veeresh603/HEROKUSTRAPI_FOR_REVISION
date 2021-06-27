@@ -19,9 +19,11 @@
     "strapi-plugin-content-type-builder": "3.6.3",
     "strapi-plugin-email": "3.6.3",
     "strapi-plugin-graphql": "3.6.3",
-
     "strapi-plugin-upload": "3.6.3",
     "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-provider-email-mailgun": "^3.6.5",
+    "strapi-provider-email-sendgrid": "^3.6.5",
+    "strapi-provider-email-sendinblue": "^1.0.6",
     "strapi-provider-upload-cloudinary": "^3.6.3",
     "strapi-utils": "3.6.3",
     "yarn": "^1.22.10"
