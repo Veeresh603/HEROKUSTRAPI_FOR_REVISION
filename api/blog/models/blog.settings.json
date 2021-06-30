@@ -62,6 +62,10 @@
     },
     "seo_keywords": {
       "type": "string"
+    },
+    "shortDescrption": {
+      "type": "richtext",
+      "default": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue metus. Curabitur nec placerat risus, at cursus libero. .."
     }
   }
 }

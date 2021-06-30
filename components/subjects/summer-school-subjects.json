@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_subjects_summer_school_subjects",
+  "info": {
+    "name": "SummerSchool_subjects",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subject_pic": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "summerSchool_curriculum": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.summer-school-curriculum"
+    },
+    "instructor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "instructor.summer-school-instructor"
+    }
+  }
+}

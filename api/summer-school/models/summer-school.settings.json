@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "summer_schools",
+  "info": {
+    "name": "summerSchool",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "summerSchool_Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "summerbanner.summer-school-banner"
+    },
+    "SummerSchool_Welcome_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "welcome-video.summer-school-welcome-video"
+    },
+    "SummerSchool_subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subjects.summer-school-subjects"
+    },
+    "what_students_say": {
+      "type": "component",
+      "repeatable": false,
+      "component": "what-students-say.what-students-say"
+    },
+    "pricing_and_payment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing-and-payment"
+    },
+    "terms_and_conditions": {
+      "type": "richtext"
+    },
+    "allreviews": {
+      "model": "allreviews"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "whatsapp_link": {
+      "type": "string"
+    },
+    "telegram_link": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
