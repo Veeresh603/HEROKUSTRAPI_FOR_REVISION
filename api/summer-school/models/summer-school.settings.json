@@ -48,6 +48,16 @@
     },
     "slug": {
       "type": "string"
+    },
+    "video_feedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review-video.reviews"
+    },
+    "sample_videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review-video.reviews"
     }
   }
 }

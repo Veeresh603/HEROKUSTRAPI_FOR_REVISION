@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": true,
       "component": "video-url-desc.video-descrption-and-url"
+    },
+    "show_on_website": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
