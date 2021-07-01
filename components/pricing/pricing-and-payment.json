@@ -20,6 +20,12 @@
       "type": "component",
       "repeatable": true,
       "component": "summer-subject.choose-your-subject"
+    },
+    "main_title": {
+      "type": "string"
+    },
+    "update_details_description": {
+      "type": "string"
     }
   }
 }

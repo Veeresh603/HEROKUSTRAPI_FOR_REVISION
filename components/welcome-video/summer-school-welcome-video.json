@@ -2,7 +2,8 @@
   "collectionName": "components_welcome_video_summer_school_welcome_videos",
   "info": {
     "name": "SummerSchool_Welcome_video",
-    "icon": "arrow-circle-left"
+    "icon": "arrow-circle-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
       "type": "component",
       "repeatable": false,
       "component": "title-and-desc.title-and-desc"
+    },
+    "main_title": {
+      "type": "string"
     }
   }
 }

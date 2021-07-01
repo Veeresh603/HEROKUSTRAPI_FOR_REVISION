@@ -26,11 +26,6 @@
       "repeatable": true,
       "component": "subjects.summer-school-subjects"
     },
-    "what_students_say": {
-      "type": "component",
-      "repeatable": false,
-      "component": "what-students-say.what-students-say"
-    },
     "pricing_and_payment": {
       "type": "component",
       "repeatable": false,
