@@ -58,6 +58,11 @@
       "type": "component",
       "repeatable": false,
       "component": "review-video.reviews"
+    },
+    "brouchre_download_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
     }
   }
 }
