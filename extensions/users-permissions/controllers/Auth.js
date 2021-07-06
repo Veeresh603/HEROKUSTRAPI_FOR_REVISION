@@ -139,7 +139,7 @@ module.exports = {
           // secure: process.env.NODE_ENV === "production" ? true : false,
           maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
           sameSite : 'lax',
-          domain: process.env.NODE_ENV === "development" ? "localhost" : "https://dev-certisured.netlify.app",
+          domain: "https://dev-certisured.netlify.app",
      
         });
         ctx.send({
