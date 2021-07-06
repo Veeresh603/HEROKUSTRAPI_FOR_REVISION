@@ -139,11 +139,10 @@ module.exports = {
           // secure: process.env.NODE_ENV === "production" ? true : false,
           maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
           sameSite : 'lax',
-          domain: "https://dev-certisured.netlify.app",
      
         });
         ctx.send({
-          jwt: token,
+          status: 'Authenticated',
           user: sanitizeEntity(user.toJSON ? user.toJSON() : user, {
             model: strapi.query("user", "users-permissions").model,
           }),
