@@ -22,6 +22,10 @@
     "demo_classes": {
       "via": "allreview",
       "collection": "ml-demo-class"
+    },
+    "bootcamp_page": {
+      "via": "allreview",
+      "model": "bootcamp-pages"
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_reviews",
+  "info": {
+    "name": "video_reviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "video_reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "video-reviews.video-reviews"
+    },
+    "category_name": {
+      "type": "string"
+    }
+  }
+}

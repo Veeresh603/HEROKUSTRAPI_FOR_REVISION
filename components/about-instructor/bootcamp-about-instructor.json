@@ -2,7 +2,8 @@
   "collectionName": "components_about_instructor_bootcamp_about_instructors",
   "info": {
     "name": "bootcamp_about_instructor",
-    "icon": "baby-carriage"
+    "icon": "baby-carriage",
+    "description": ""
   },
   "options": {},
   "attributes": {

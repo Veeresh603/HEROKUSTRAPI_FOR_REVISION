@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_video_reviews_video_reviews",
+  "info": {
+    "name": "video_reviews",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "video_link": {
+      "type": "string"
+    }
+  }
+}

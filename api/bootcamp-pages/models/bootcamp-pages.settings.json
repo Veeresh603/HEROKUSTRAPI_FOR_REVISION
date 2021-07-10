@@ -50,6 +50,13 @@
       "type": "component",
       "repeatable": false,
       "component": "about-instructor.bootcamp-about-instructor"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "allreview": {
+      "model": "allreviews",
+      "via": "bootcamp_page"
     }
   }
 }
