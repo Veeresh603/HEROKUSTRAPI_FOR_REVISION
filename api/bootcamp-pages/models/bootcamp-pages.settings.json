@@ -57,6 +57,24 @@
     "allreview": {
       "model": "allreviews",
       "via": "bootcamp_page"
+    },
+    "video_review": {
+      "model": "video-reviews"
+    },
+    "bootcamp_frequently_asked_question": {
+      "type": "component",
+      "repeatable": false,
+      "component": "frequently-asked.bootcamp-frequently-asked-question"
+    },
+    "bootcamp_pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bootcamp-pricing.bootcamp-pricing"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technolog-stack.technolog-stack"
     }
   }
 }

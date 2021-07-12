@@ -2,12 +2,13 @@
   "collectionName": "components_video_reviews_video_reviews",
   "info": {
     "name": "video_reviews",
-    "icon": "arrow-circle-down"
+    "icon": "arrow-circle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "name": {
       "type": "string"

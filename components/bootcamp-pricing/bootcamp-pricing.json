@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_bootcamp_pricing_bootcamp_pricings",
+  "info": {
+    "name": "bootcamp_pricing",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pricing_offer": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "pricing_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "pricing_amount": {
+      "type": "string"
+    },
+    "pricing_subject": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "pricing_coupon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "audio_link": {
+      "type": "string",
+      "default": "https://drive.google.com/file/d/1ex4b_fkmUUyoy7VD3MRwQI4iaGXotSiL/view?usp=sharing"
+    },
+    "brouchre_link": {
+      "type": "string",
+      "default": "https://certisured.com"
+    }
+  }
+}

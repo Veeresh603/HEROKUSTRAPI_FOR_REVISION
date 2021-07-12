@@ -13,7 +13,7 @@
   "attributes": {
     "video_reviews": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "video-reviews.video-reviews"
     },
     "category_name": {
