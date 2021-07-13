@@ -2,7 +2,8 @@
   "collectionName": "components_core_curriculum_bootcamp_core_curricula",
   "info": {
     "name": "bootcamp_core_curriculum",
-    "icon": "battery-empty"
+    "icon": "battery-empty",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "download_curriculum_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
     }
   }
 }

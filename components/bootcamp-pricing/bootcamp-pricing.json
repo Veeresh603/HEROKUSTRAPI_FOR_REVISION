@@ -40,6 +40,16 @@
     "brouchre_link": {
       "type": "string",
       "default": "https://certisured.com"
+    },
+    "audio_link_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "brouchre_link_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
     }
   }
 }

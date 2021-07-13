@@ -2,7 +2,8 @@
   "collectionName": "components_bootcamp_banner_bootcamp_banners",
   "info": {
     "name": "bootcamp_banner",
-    "icon": "arrow-circle-up"
+    "icon": "arrow-circle-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,14 +16,18 @@
     "bootcamp_banner_desc": {
       "type": "string"
     },
-    "bootcamp_register_link": {
-      "type": "string"
-    },
-    "why_discord_link": {
-      "type": "string"
-    },
     "video_link": {
       "type": "string"
+    },
+    "why_discord_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "Register_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
     }
   }
 }

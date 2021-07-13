@@ -8,7 +8,8 @@
   "options": {},
   "attributes": {
     "Button_label": {
-      "type": "string"
+      "type": "string",
+      "default": "why discord"
     },
     "Button_descrption": {
       "type": "string"
