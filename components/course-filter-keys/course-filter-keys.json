@@ -44,6 +44,9 @@
       "type": "component",
       "repeatable": true,
       "component": "technology-stack-media.technology-stack-media"
+    },
+    "users_count": {
+      "type": "integer"
     }
   }
 }
