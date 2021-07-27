@@ -16,10 +16,10 @@
     "description": {
       "type": "richtext"
     },
-    "download_curriculum_link": {
+    "curriculum_brochure": {
       "type": "component",
       "repeatable": false,
-      "component": "course-button.course-button"
+      "component": "curriculum-brochure.curriculum-brochure"
     }
   }
 }

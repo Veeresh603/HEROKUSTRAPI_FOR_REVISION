@@ -41,15 +41,15 @@
       "type": "string",
       "default": "https://certisured.com"
     },
-    "audio_link_button": {
+    "audio_brochure": {
       "type": "component",
       "repeatable": false,
-      "component": "course-button.course-button"
+      "component": "curriculum-brochure.curriculum-brochure"
     },
-    "brouchre_link_button": {
+    "brochure_download": {
       "type": "component",
       "repeatable": false,
-      "component": "course-button.course-button"
+      "component": "curriculum-brochure.curriculum-brochure"
     }
   }
 }
