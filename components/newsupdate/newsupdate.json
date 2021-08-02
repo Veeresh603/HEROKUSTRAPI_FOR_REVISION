@@ -15,6 +15,18 @@
     },
     "panel": {
       "type": "string"
+    },
+    "news_update_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
