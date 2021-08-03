@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "bootcamp_pages",
   "info": {
-    "name": "bootcamp_pages",
+    "name": "landing_pages",
     "description": ""
   },
   "options": {
@@ -75,6 +75,11 @@
       "type": "component",
       "repeatable": false,
       "component": "technolog-stack.technolog-stack"
+    },
+    "pricing_lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-lists.pricing-lists"
     }
   }
 }

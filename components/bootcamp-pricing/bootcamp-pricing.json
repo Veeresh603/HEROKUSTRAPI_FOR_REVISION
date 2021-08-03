@@ -18,33 +18,11 @@
       "repeatable": false,
       "component": "course-button.course-button"
     },
-    "pricing_amount": {
-      "type": "string"
-    },
-    "pricing_subject": {
-      "type": "string"
-    },
     "title": {
-      "type": "string"
-    },
-    "pricing_coupon": {
       "type": "string"
     },
     "description": {
       "type": "richtext"
-    },
-    "audio_link": {
-      "type": "string",
-      "default": "https://drive.google.com/file/d/1ex4b_fkmUUyoy7VD3MRwQI4iaGXotSiL/view?usp=sharing"
-    },
-    "brouchre_link": {
-      "type": "string",
-      "default": "https://certisured.com"
-    },
-    "audio_brochure": {
-      "type": "component",
-      "repeatable": false,
-      "component": "curriculum-brochure.curriculum-brochure"
     },
     "brochure_download": {
       "type": "component",
