@@ -7,16 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "pricing_offer": {
-      "type": "string"
-    },
     "span": {
       "type": "string"
-    },
-    "pricing_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "course-button.course-button"
     },
     "title": {
       "type": "string"
