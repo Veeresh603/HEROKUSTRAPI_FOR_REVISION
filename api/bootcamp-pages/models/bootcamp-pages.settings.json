@@ -54,10 +54,6 @@
     "slug": {
       "type": "string"
     },
-    "allreview": {
-      "model": "allreviews",
-      "via": "bootcamp_page"
-    },
     "video_review": {
       "model": "video-reviews"
     },
@@ -80,6 +76,15 @@
       "type": "component",
       "repeatable": true,
       "component": "pricing-lists.pricing-lists"
+    },
+    "allreviews": {
+      "model": "allreviews",
+      "collection": "allreviews"
+    },
+    "demo_class_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "demo-class.demo-class-info"
     }
   }
 }
