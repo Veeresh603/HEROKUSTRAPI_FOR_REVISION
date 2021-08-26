@@ -2,7 +2,8 @@
   "collectionName": "components_demo_class_demo_class_infos",
   "info": {
     "name": "demo_class_info",
-    "icon": "border-none"
+    "icon": "border-none",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -25,6 +26,9 @@
     },
     "after_submitting_message": {
       "type": "text"
+    },
+    "make_visible": {
+      "type": "boolean"
     }
   }
 }
