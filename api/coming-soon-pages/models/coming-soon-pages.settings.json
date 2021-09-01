@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "coming_soon_pages",
   "info": {
-    "name": "coming_soon_pages"
+    "name": "coming_soon_pages",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -37,6 +38,10 @@
     },
     "coming_soon_slug": {
       "type": "string"
+    },
+    "success_message": {
+      "type": "text",
+      "default": "Thank you for submitting the form will let you know by email"
     }
   }
 }
