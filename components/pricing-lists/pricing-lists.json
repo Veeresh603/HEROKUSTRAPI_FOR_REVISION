@@ -31,6 +31,10 @@
       "type": "component",
       "repeatable": true,
       "component": "points.points-included"
+    },
+    "currency_icon": {
+      "type": "string",
+      "default": "₹"
     }
   }
 }
