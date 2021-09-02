@@ -8,10 +8,12 @@
   "options": {},
   "attributes": {
     "span": {
-      "type": "string"
+      "type": "string",
+      "default": "Course"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "default": "Pricing & Benefits"
     },
     "description": {
       "type": "richtext"

@@ -69,6 +69,11 @@
       "type": "component",
       "repeatable": false,
       "component": "about-bootcamp1.about-bootcamp1"
+    },
+    "bootcamp_pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bootcamp-pricing.bootcamp-pricing"
     }
   }
 }
