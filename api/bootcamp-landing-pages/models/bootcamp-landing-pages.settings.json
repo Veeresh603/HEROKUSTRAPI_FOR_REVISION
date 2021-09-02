@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "bootcamp_pages",
+  "collectionName": "bootcamp_landing_pages",
   "info": {
-    "name": "landing_pages",
+    "name": "bootcamp_landing_pages",
     "description": ""
   },
   "options": {
@@ -26,11 +26,6 @@
       "repeatable": false,
       "component": "technolog-stack.technolog-stack"
     },
-    "about_bootcamp": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about-bootcamp.about-bootcamp"
-    },
     "why_discord": {
       "type": "component",
       "repeatable": false,
@@ -51,30 +46,29 @@
       "repeatable": false,
       "component": "about-instructor.bootcamp-about-instructor"
     },
-    "slug": {
-      "type": "string"
-    },
-    "video_review": {
-      "model": "video-reviews"
-    },
-    "bootcamp_frequently_asked_question": {
+    "bootcamp_faq": {
       "type": "component",
       "repeatable": false,
       "component": "frequently-asked.bootcamp-frequently-asked-question"
     },
-    "pricing_lists": {
+    "bootcamp_pricing_lists": {
       "type": "component",
       "repeatable": true,
       "component": "pricing-lists.pricing-lists"
     },
-    "allreviews": {
-      "model": "allreviews",
-      "collection": "allreviews"
+    "slug": {
+      "type": "string"
     },
-    "demo_class_info": {
+    "allreview": {
+      "model": "allreviews"
+    },
+    "video_review": {
+      "model": "video-reviews"
+    },
+    "about_bootcamp1": {
       "type": "component",
       "repeatable": false,
-      "component": "demo-class.demo-class-info"
+      "component": "about-bootcamp1.about-bootcamp1"
     }
   }
 }
