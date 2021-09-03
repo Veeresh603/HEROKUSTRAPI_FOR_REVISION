@@ -2,7 +2,8 @@
   "collectionName": "components_date_time_event_event_date_times",
   "info": {
     "name": "event_date_time",
-    "icon": "braille"
+    "icon": "braille",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,12 @@
     },
     "date_and_time": {
       "type": "datetime"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
     }
   }
 }
