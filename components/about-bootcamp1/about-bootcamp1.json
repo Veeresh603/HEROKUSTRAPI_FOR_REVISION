@@ -2,7 +2,8 @@
   "collectionName": "components_about_bootcamp1_about_bootcamp1s",
   "info": {
     "name": "about_bootcamp1",
-    "icon": "arrow-alt-circle-up"
+    "icon": "arrow-alt-circle-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -29,7 +30,7 @@
     },
     "about_bootcamp_events1": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "bootcamp-events1.about-bootcamp-events1"
     }
   }
