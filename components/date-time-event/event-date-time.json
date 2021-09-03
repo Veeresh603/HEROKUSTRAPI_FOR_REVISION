@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_date_time_event_event_date_times",
+  "info": {
+    "name": "event_date_time",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "date_and_time": {
+      "type": "datetime"
+    }
+  }
+}
