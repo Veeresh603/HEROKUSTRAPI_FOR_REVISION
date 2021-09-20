@@ -27,6 +27,14 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "show_date_and_time": {
+      "type": "boolean",
+      "default": false
+    },
+    "starts_at": {
+      "type": "string",
+      "default": "Starts at 2/2/21 and ends at 3/3/21"
     }
   }
 }
