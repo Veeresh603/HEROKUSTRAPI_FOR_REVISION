@@ -18,10 +18,6 @@
     },
     "title": {
       "type": "string"
-    },
-    "link_to": {
-      "type": "string",
-      "default": "/"
     }
   }
 }
