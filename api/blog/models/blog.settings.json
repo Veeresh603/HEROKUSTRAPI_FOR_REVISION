@@ -17,18 +17,25 @@
     "Descrption": {
       "type": "richtext"
     },
-    "name": {
-      "type": "string"
+    "blog_slug": {
+      "type": "uid",
+      "targetField": "title"
     },
-    "youtube_link": {
-      "type": "string",
-      "default": "blogger youtube channel "
+    "shortDescrption": {
+      "type": "richtext",
+      "default": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue metus. Curabitur nec placerat risus, at cursus libero. .."
     },
-    "linkedin_link": {
-      "type": "string",
-      "default": "blogger linkedin link"
+    "blog_tags": {
+      "collection": "blog-tags",
+      "via": "blogs",
+      "dominant": true
     },
-    "blogger_pic": {
+    "blogs_categories": {
+      "collection": "blogs-category",
+      "via": "blogs",
+      "dominant": true
+    },
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -40,32 +47,9 @@
       "required": false,
       "pluginOptions": {}
     },
-    "blog_cover_image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "blog_slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
-    "blogs_categories": {
+    "blog_author": {
       "via": "blogs",
-      "collection": "blogs-category"
-    },
-    "seo_keywords": {
-      "type": "string"
-    },
-    "shortDescrption": {
-      "type": "richtext",
-      "default": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue metus. Curabitur nec placerat risus, at cursus libero. .."
+      "model": "blog-author"
     }
   }
 }

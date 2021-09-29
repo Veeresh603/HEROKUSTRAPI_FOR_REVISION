@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs_categories",
+  "collectionName": "blog_tags",
   "info": {
-    "name": "blogs_category",
-    "description": ""
+    "name": "blog_tags"
   },
   "options": {
     "increments": true,
@@ -11,11 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "category_name": {
+    "tag_title": {
       "type": "string"
     },
     "blogs": {
-      "via": "blogs_categories",
+      "via": "blog_tags",
       "collection": "blog"
     }
   }
