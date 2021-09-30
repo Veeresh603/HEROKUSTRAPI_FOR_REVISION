@@ -36,9 +36,12 @@
       "type": "string"
     },
     "blogs": {
-      "collection": "blog",
       "via": "blog_author",
-      "dominant": true
+      "collection": "blog"
+    },
+    "designation": {
+      "type": "string",
+      "default": "Designation"
     }
   }
 }

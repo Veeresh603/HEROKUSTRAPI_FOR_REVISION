@@ -50,6 +50,20 @@
     "blog_author": {
       "via": "blogs",
       "model": "blog-author"
+    },
+    "audio_file": {
+      "type": "component",
+      "repeatable": false,
+      "component": "audio-file.audio-file"
+    },
+    "published_date": {
+      "type": "string",
+      "default": "June 21"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
