@@ -25,6 +25,10 @@
       "type": "component",
       "repeatable": true,
       "component": "choose-pricing.choose-pricing"
+    },
+    "show_or_hide": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

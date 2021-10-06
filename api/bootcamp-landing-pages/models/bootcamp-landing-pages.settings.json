@@ -79,6 +79,11 @@
       "type": "component",
       "repeatable": false,
       "component": "bootcamp-events.bootcamp-events"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

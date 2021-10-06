@@ -80,6 +80,11 @@
       "type": "component",
       "repeatable": false,
       "component": "bootcamp-pricing.bootcamp-pricing"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

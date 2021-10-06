@@ -68,6 +68,11 @@
     },
     "allreview": {
       "model": "allreviews"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_seo_seos",
   "info": {
     "name": "Seo",
-    "icon": "battery-three-quarters"
+    "icon": "battery-three-quarters",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,8 +11,7 @@
       "type": "string"
     },
     "short_description": {
-      "type": "string",
-      "maxLength": 136
+      "type": "string"
     },
     "keywords": {
       "type": "component",

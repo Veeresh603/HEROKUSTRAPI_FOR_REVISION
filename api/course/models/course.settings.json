@@ -32,7 +32,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "slug": {
       "type": "string"
@@ -46,7 +47,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "short_descrption": {
       "type": "richtext"
@@ -62,6 +64,11 @@
       "type": "component",
       "repeatable": false,
       "component": "course-button.course-button"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
