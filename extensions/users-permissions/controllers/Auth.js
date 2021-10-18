@@ -12,7 +12,8 @@ const _ = require("lodash");
 const grant = require("grant-koa");
 const { sanitizeEntity } = require("strapi-utils");
 
-const emailRegExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+const emailRegExp =
+  /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const formatError = (error) => [
   { messages: [{ id: error.id, message: error.message, field: error.field }] },
 ];
@@ -136,13 +137,15 @@ module.exports = {
 
         ctx.cookies.set("token", token, {
           httpOnly: true,
-          // secure: process.env.NODE_ENV === "production" ? true : false,
+          secure: process.env.NODE_ENV === "production" ? true : false,
           maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
-          sameSite : 'lax'
-     
+          domain:
+            process.env.NODE_ENV === "development"
+              ? "localhost"
+              : process.env.PRODUCTION_URL,
         });
         ctx.send({
-          jwt: token,
+          status: "Authenticated",
           user: sanitizeEntity(user.toJSON ? user.toJSON() : user, {
             model: strapi.query("user", "users-permissions").model,
           }),
@@ -276,9 +279,10 @@ module.exports = {
     // Ability to pass OAuth callback dynamically
     grantConfig[provider].callback =
       _.get(ctx, "query.callback") || grantConfig[provider].callback;
-    grantConfig[provider].redirect_uri = strapi.plugins[
-      "users-permissions"
-    ].services.providers.buildRedirectUri(provider);
+    grantConfig[provider].redirect_uri =
+      strapi.plugins["users-permissions"].services.providers.buildRedirectUri(
+        provider
+      );
 
     return grant(grantConfig)(ctx, next);
   },
@@ -558,9 +562,8 @@ module.exports = {
   async emailConfirmation(ctx, next, returnUser) {
     const { confirmation: confirmationToken } = ctx.query;
 
-    const { user: userService, jwt: jwtService } = strapi.plugins[
-      "users-permissions"
-    ].services;
+    const { user: userService, jwt: jwtService } =
+      strapi.plugins["users-permissions"].services;
 
     if (_.isEmpty(confirmationToken)) {
       return ctx.badRequest("token.invalid");

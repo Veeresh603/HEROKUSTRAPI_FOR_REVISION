@@ -40,10 +40,10 @@
     "facebook_link": {
       "type": "string"
     },
-    "whatsapp_link": {
+    "discord_link": {
       "type": "string"
     },
-    "telegram_link": {
+    "linkedin_link": {
       "type": "string"
     },
     "slug": {

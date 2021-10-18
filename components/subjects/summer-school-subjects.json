@@ -36,6 +36,9 @@
       "type": "component",
       "repeatable": false,
       "component": "course-button.course-button"
+    },
+    "video_into_url": {
+      "type": "string"
     }
   }
 }
