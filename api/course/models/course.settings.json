@@ -69,6 +69,10 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "orders": {
+      "via": "courses",
+      "collection": "order"
     }
   }
 }
