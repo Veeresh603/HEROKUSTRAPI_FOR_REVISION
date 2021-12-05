@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "curriculum": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lesson.curriculum"
+    },
+    "course_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string"
+    },
+    "banner_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "short_descrption": {
+      "type": "richtext"
+    },
+    "author": {
+      "model": "author",
+      "via": "courses"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course-button.course-button"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "orders": {
+      "via": "courses",
+      "collection": "order"
+    },
+    "courses_demos": {
+      "via": "course",
+      "collection": "course-demo-list"
+    }
+  }
+}

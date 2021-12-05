@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "paid",
+        "unpaid"
+      ]
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "checkout_session": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
+    },
+    "courses": {
+      "collection": "course",
+      "via": "orders",
+      "dominant": true
+    },
+    "shipping_name": {
+      "type": "string"
+    },
+    "shipping_phone": {
+      "type": "string"
+    },
+    "shipping_email": {
+      "type": "string"
+    },
+    "paymentIntent_id": {
+      "type": "string"
+    }
+  }
+}
